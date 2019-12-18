@@ -1,0 +1,5 @@
+---
+- hosts: vaultunseal
+  become: yes
+  roles:
+    - vaultunseal

@@ -1,0 +1,5 @@
+---
+- hosts: consulservers
+  become: yes
+  roles:
+    - consulserver

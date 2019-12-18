@@ -1,0 +1,18 @@
+worker1    ansible_host=192.168.77.2    ansible_user=cactus    flag=node1
+worker2    ansible_host=192.168.77.3    ansible_user=cactus    flag=node2
+worker3    ansible_host=192.168.77.4    ansible_user=cactus    flag=node3
+worker4    ansible_host=192.168.77.5    ansible_user=cactus    flag=node4
+worker5    ansible_host=192.168.77.6    ansible_user=cactus    flag=node5
+
+
+[consulservers]
+worker1
+worker2
+worker3
+
+[vaultunseal]
+worker1
+
+[vaultservers]
+worker4
+worker5

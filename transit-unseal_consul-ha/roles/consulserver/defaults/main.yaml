@@ -1,0 +1,8 @@
+---
+
+datacenter: dc1
+datadir: /var/consul/data
+nodes:
+  - { flag: node1, name: consul_s1, addr: 192.168.77.2 }
+  - { flag: node2, name: consul_s2, addr: 192.168.77.3 }
+  - { flag: node3, name: consul_s3, addr: 192.168.77.4 }
