@@ -1,0 +1,24 @@
+serena@ubuntu:~/study/vault/hands-on-vault$ vault read rabbitmq/creds/my-role
+Key                Value
+---                -----
+lease_id           rabbitmq/creds/my-role/5Jm7FAhTKNQIxxRHMJmHK3Co
+lease_duration     768h
+lease_renewable    true
+password           ed402fc3-a010-50a3-6860-0d8376ad3279
+username           root-4b3e502a-2f14-0b81-36e2-cd3d336a4e4f
+serena@ubuntu:~/study/vault/hands-on-vault$ vault read rabbitmq/creds/testrole
+Key                Value
+---                -----
+lease_id           rabbitmq/creds/testrole/sakszMyfp8VsIKca45MEg5UV
+lease_duration     768h
+lease_renewable    true
+password           17acbea2-fa99-2385-6f03-f51ecf09f038
+username           root-a92cef5c-dbbd-c53a-b494-892f04a00a33
+serena@ubuntu:~/study/vault/hands-on-vault$ vault read rabbitmq/creds/fullrole
+Key                Value
+---                -----
+lease_id           rabbitmq/creds/fullrole/W4BFWP6IMn61EJxHrNahV7c3
+lease_duration     768h
+lease_renewable    true
+password           21350885-639a-e16e-6dd7-1cfba6738f18
+username           root-1fb34814-2e1d-f8ad-2cff-ee1331dae6db
